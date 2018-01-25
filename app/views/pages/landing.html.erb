@@ -1,0 +1,43 @@
+<%= render 'layouts/header1' %>
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>landing page</title>
+  <style>
+    .button{
+      background: white;
+    }
+  </style>
+  </head>
+  <body>
+<h1>Welcome to India/ Sweden </h1>
+<h2> If this is an <b>Emergency</b> in Sweden please call <a href="tel:+112">112</a> <h2>
+<h2> If this is an <b>Emergency</b> in New Delhi please call <a href="tel:+112">102</a><h2>
+
+
+
+<button type="button" class="button"><%= link_to " Sexual Assault", pages_Sexual_assault1_url %></a></button>
+<button type="button" class="button"><%= link_to " Prenatal", pages_Prenatal_sweden_url %></button>
+<button type="button" class="button"><%= link_to " Contraceptive/Plan B", pages_Prenatal_sweden_url %></button>
+<button type="button" class="button"><%= link_to " Medications/Feminine products", pages_Prenatal_sweden_url %></button>
+
+
+
+    <h2>India- New Delhi</h2>
+    <p>Zika is a risk in India. Zika infection during pregnancy can cause serious birth defects. If you engaged in unprotected consensual or forced sexual intercourse, speak with your health-care provider about the risk of Zika.
+Welcome to Delhi!
+Delhi is an exciting and wonderful place but that can also be a difficult city for women to navigate.
+In India,  contraceptives are legal and can be purchased without a prescription in pharmacies.<%= link_to "Read more" , pages_India_summary_url %></p>
+
+<h2>Sweden</h2>
+
+<p>Welcome to Sweden!
+Sweden is wonderful, politically stable country and has a healthcare system that is consistently referenced to as a model system.
+Here are some quick notes to keep in mind if you need medical care while in Sweden.
+Without documents, unless you are below 18 years old, you may only be able to receive emergency medical and dental care. If you are sick or need medical care, first call 1177, which is the medical services line, to discuss with a nurse, who can help determine if the inquiry can be resolved over the phone, if you need to go to a health center, or if you need to go to an ER.<%= link_to  "Read more" , pages_Sweden_summary_url %></p>
+</p>
+
+
+
+  </body>
+</html>
