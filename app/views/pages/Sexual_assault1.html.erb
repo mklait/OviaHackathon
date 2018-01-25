@@ -14,6 +14,12 @@
 If you have experienced sexual assault and have already been to a hospital, call the Delhi’s women helpline:  1091/1092 for information on emotional, mental, and legal support.
  </h1>
 
+ <h2>Locations of nearest medical clinics </h2>
+
+<%= content_tag(:iframe,'', width: 400, height: 300, src: "https://www.google.com/maps/embed/v1/search
+	?key=AIzaSyBtiB6Lnc8zSXP_vWAbkvusHkncFd52iiw
+	&q=medical+centers+in+#{current_user.current_location}") %>
+
 </div>
 
 <div>
@@ -53,11 +59,7 @@ Here is a checklist of what to expect and demand for the health care provider:
 </ul>
 </p>
 
-<h2>Locations of nearest medical clinics </h2>
 
-<%= content_tag(:iframe,'', width: 400, height: 300, src: "https://www.google.com/maps/embed/v1/search
-	?key=AIzaSyBtiB6Lnc8zSXP_vWAbkvusHkncFd52iiw
-	&q=medical+centers+in+#{current_user.current_location}") %>
 
 </body>
 </html>
