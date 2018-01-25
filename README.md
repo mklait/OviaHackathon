@@ -1,25 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Myself and three other colleagues from the Startup Institute, created a team and entered the Ovia Technology Helping Women Hackathon. The hackathon took place on January 19 and 20, 2018. 
 
-Things you may want to cover:
+Our team came in second place with this project. This project was designed to help women access country specific healthcare information while traveling abroad and to geolocate the nearest point of care in their current location. 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# OviaHackathon
+We created two test cases. A user travelling to India and a user travelling to Sweden. In our test app, we use google maps to geolocate the nearest healthcare clinics to each user. 
